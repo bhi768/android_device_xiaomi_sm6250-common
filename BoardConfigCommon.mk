@@ -206,6 +206,9 @@ BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 # ANXCamera
 -include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
 
+# LLVM tools
+KERNEL_SUPPORTS_LLVM_TOOLS := true
+
 # Inherit proprietary blobs
 -include vendor/xiaomi/sm6250-common/BoardConfigVendor.mk
 
