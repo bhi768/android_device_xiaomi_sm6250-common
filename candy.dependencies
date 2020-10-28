@@ -6,7 +6,7 @@
   {
     "repository": "andriod_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch": "c10"
+    "branch": "ten-miatoll"
   },
   {
     "remote": "github",
