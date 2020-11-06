@@ -40,8 +40,6 @@
         <library name="audio_pre_processing" path="libqcomvoiceprocessing.so"/>
         <library name="volume_listener" path="libvolumelistener.so"/>
         <library name="audiosphere" path="libasphere.so"/>
-        <library name="dirac" path="libdirac.so"/>
-        <library name="dap" path="libswdap.so"/>
         <library name="shoebox" path="libshoebox.so"/>
         <library name="misoundfx" path="libmisoundfx.so"/>
     </libraries>
