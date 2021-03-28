@@ -170,8 +170,8 @@ public class DeviceSettings extends PreferenceFragment implements
             mFastcharge.setEnabled(Fastcharge.isSupported());
             mFastcharge.setChecked(Fastcharge.isCurrentlyEnabled(this.getContext()));
             mFastcharge.setOnPreferenceChangeListener(new Fastcharge(getContext()));
-        } else {
-            getPreferenceScreen().removePreference(findPreference(CATEGORY_FASTCHARGE));
+//        } else {
+//            getPreferenceScreen().removePreference(findPreference(CATEGORY_FASTCHARGE));
         }
 
         mFpsInfo = (SwitchPreference) findPreference(PREF_KEY_FPS_INFO);
