@@ -19,6 +19,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 # MiuiCamera
 #$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
+#Gapps
+$(call inherit-product, vendor/gapps/config.mk)
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
@@ -113,6 +116,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
+    libgui_vendor \
+    Snap \
     GoogleCameraGo
 
 PRODUCT_PACKAGES += \
