@@ -21,6 +21,9 @@ ifeq ($(MIUICAM),true)
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 endif
 
+#Gapps
+$(call inherit-product, vendor/gapps/config.mk)
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
